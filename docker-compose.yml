@@ -1,0 +1,10 @@
+version: '1'
+services:
+  nginx-react:
+    image: tradeapp:latest
+    container_name: mytradeapp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'

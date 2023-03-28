@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_REST_URL="http://localhost:8080/api/v1";
+const BASE_REST_URL="http://tradereacteb-env.eba-crgyqcz2.us-west-1.elasticbeanstalk.com//api/v1";
 
 class ProdService{
 
